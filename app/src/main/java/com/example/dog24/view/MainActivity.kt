@@ -8,8 +8,8 @@ import androidx.navigation.ui.NavigationUI
 import com.example.dog24.R
 
 class MainActivity : AppCompatActivity() {
+    val ocuupation="developer"
     lateinit var navController:NavController
-    val name="JonnyC"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
