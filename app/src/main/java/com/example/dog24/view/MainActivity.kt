@@ -9,7 +9,7 @@ import com.example.dog24.R
 
 class MainActivity : AppCompatActivity() {
     lateinit var navController:NavController
-    val stam="pashot stam"
+    val name="JonnyB"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,5 +21,4 @@ class MainActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         return NavigationUI.navigateUp(navController, null)
     }
-
 }
