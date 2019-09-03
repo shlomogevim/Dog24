@@ -9,7 +9,7 @@ import com.example.dog24.R
 
 class MainActivity : AppCompatActivity() {
     lateinit var navController:NavController
-    val name="JonnyB"
+    val name="JonnyC"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
